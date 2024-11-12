@@ -24,8 +24,8 @@ get_arrow_key() {
 snake_game() {
   local width=40
   local height=10
-  local snake_head="o<"  # Updated snake head to "o<"
-  local snake_body="*"  # Snake body character
+  local snake_head="O"
+  local snake_body="*"
   local empty_space=" "
   local direction="RIGHT"
   local snake=()
