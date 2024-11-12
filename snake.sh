@@ -5,11 +5,19 @@ clear_screen() {
   echo -e "\033c"
 }
 
-# Function to capture arrow key input (WASD)
-get_keypress() {
-  # Read a single character from input
+# Function to capture arrow key input
+get_arrow_key() {
+  # Read a single key press from input
   IFS= read -rsn1 key
-  echo "$key"
+  if [[ $key == $'\x1b' ]]; then
+    read -rsn2 -t 0.1 key
+    case $key in
+      '[A') echo "UP" ;;    # Up arrow
+      '[B') echo "DOWN" ;;  # Down arrow
+      '[C') echo "RIGHT" ;; # Right arrow
+      '[D') echo "LEFT" ;;  # Left arrow
+    esac
+  fi
 }
 
 # Snake game with automatic movement and keyboard direction control
@@ -132,14 +140,13 @@ snake_game() {
     done
 
     # Get keyboard input for changing direction (non-blocking)
-    if read -rsn1 -t 0.1 key; then
-      case $key in
-        "w") direction="UP" ;;
-        "s") direction="DOWN" ;;
-        "a") direction="LEFT" ;;
-        "d") direction="RIGHT" ;;
-      esac
-    fi
+    arrow_key=$(get_arrow_key)
+    case $arrow_key in
+      "UP") direction="UP" ;;
+      "DOWN") direction="DOWN" ;;
+      "RIGHT") direction="RIGHT" ;;
+      "LEFT") direction="LEFT" ;;
+    esac
 
     # Delay to control game speed
     sleep 0.1
