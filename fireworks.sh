@@ -195,7 +195,7 @@ while true; do
     echo -e "\e[1;34m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "
     echo -e "\e[1;36m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "
     echo -e "\e[1;36m          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~          "
-    sleep 1
+    sleep 2
 
     # Additional Party Decorations Below the Cake
 
@@ -205,7 +205,6 @@ while true; do
     echo -e "         \e[34mMay your day be as sweet as cake 🍰🎉\e[0m"
     echo -e "     \e[31m🍭🍬 Sweet Treats & Good Vibes Only 🍬🍭\e[0m"
     echo -e "           \e[35m🎉 Party Time! 🎈✨ Let's Party! 🎉🎉\e[0m"
-    sleep 0.5
 
     # Fireworks Celebration Below Cake
     echo -e "        \e[33m🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆\e[0m"
@@ -306,5 +305,44 @@ while true; do
     echo -e "                 \e[3$((RANDOM%8))m*\e[0m"
     sleep 0.2
     clear
+
+        # Pac-Man and Dot animation
+    PACMAN="(o)"
+    DOT="."
+    SPACE=" "
+
+    # Length of the line
+    LINE_LENGTH=30
+
+    # Starting position for Pac-Man
+    PACMAN_POSITION=0
+
+    # Create the initial line (line of dots)
+    LINE=$(printf "%${LINE_LENGTH}s" | tr " " "$DOT")
+
+    # Function to display the line with Pac-Man eating dots
+    eat_dots() {
+    while [ $PACMAN_POSITION -lt $LINE_LENGTH ]; do
+        # Replace the dot at the current position with a space to simulate eating
+        LINE_WITH_PACMAN="${LINE:0:$PACMAN_POSITION}$PACMAN${LINE:$PACMAN_POSITION+2}"
+        
+        # Clear the screen
+        clear
+        
+        # Display the line with Pac-Man at the current position
+        echo "$LINE_WITH_PACMAN"
+        
+        # Wait for a short period before moving Pac-Man
+        sleep 0.2
+        
+        # Move Pac-Man to the right
+        ((PACMAN_POSITION++))
+    done
+    
+    }
+    # Run the Pac-Man animation
+    eat_dots
+
+
 
 done
