@@ -143,12 +143,13 @@ done
 
     sleep 1
 
-    # Final fireworks effect
-    for i in {1..5}
-    do
-        echo -e "\e[31m    *    \e[33m*\e[0m    \e[32m*\e[34m*\e[0m    \e[35m*\e[0m    \e[36m*\e[0m"
-        sleep 0.5
+    # New Firework Effect (Multiple Colors and Dynamic Movement)
+    for i in {1..5}; do
         clear
+        echo -e "\e[31m     *\e[0m    \e[33m*\e[0m     \e[32m*\e[0m    \e[34m*\e[0m    \e[35m*\e[0m    \e[36m*\e[0m"
+        echo -e "   \e[32m   *  *  *\e[0m   \e[34m  *  *  *\e[0m    \e[31m*  *  *  *\e[0m   \e[33m  *  *  *  *\e[0m"
+        echo -e "     \e[36m*   *   *\e[0m     \e[35m  *   *  *  *\e[0m   \e[34m    *   *  *\e[0m"
+        sleep 0.3
     done
 
     echo -e "\n\e[1;32m🎉🎂 Happy Birthday Again, ThaoNguyen! 🎂🎉\e[0m"
