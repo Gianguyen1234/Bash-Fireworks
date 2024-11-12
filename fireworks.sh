@@ -343,6 +343,56 @@ while true; do
     # Run the Pac-Man animation
     eat_dots
 
+    # Function to clear the screen
+    clear_screen() {
+    echo -e "\033c"
+    }
+
+    # Swim animation function
+    swim() {
+    local frame1=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+    local frame2=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+    local frame3=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+    
+    # Loop through for 5 iterations, which will last 1 second
+    for i in {1..5}
+    do
+        clear_screen
+        echo "$frame1"
+        echo "$frame2"
+        echo "$frame3"
+        sleep 0.2
+        
+        # Shift frames to simulate swimming
+        frame1="  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+        frame2=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+        frame3=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+        
+        clear_screen
+        echo "$frame1"
+        echo "$frame2"
+        echo "$frame3"
+        sleep 0.2
+        
+        frame1=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+        frame2="  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+        frame3=" ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ "
+    done
+    }
+
+    # Start the swimming animation for 1 second
+    swim
+
+    sleep 1
+
+    # Firework 3 Fade
+    echo -e "       \e[3$((RANDOM%8))m*\e[0m             \e[3$((RANDOM%8))m*\e[0m"
+    sleep 0.2
+    clear
+    echo -e "                 \e[3$((RANDOM%8))m*\e[0m"
+    sleep 0.2
+    clear
+
 
 
 done
