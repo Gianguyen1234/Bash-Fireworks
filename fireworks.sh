@@ -146,6 +146,81 @@ while true; do
 
     sleep 1
 
+    # ASCII Birthday Cake
+    clear
+    echo -e "         iiii iiii iiii iiii iiii         "
+    echo -e "      iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii   "
+    echo -e "   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e " iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e " iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "      iiii iiiiiiiiiiiiiiiiiii iiiiii"
+    echo -e "       iii iiiiiiiiiiiiiiiiiii iii"
+    echo -e "        iiii iiiiiiiiiiiii iiiiiiii"
+    echo -e "            iiiiiiiiiiiii iiiiiiii"
+    echo -e "             iiiiiiiiiii iiiii"
+    echo -e "             iiiiiiiiiiiiiiiiii"
+    echo -e "               iiiii iiiiiiii"
+    echo -e "                iii iiiiii"
+    echo -e "                  iiiii"
+    echo -e "                 iiiii"
+    echo -e "          ======================"
+    echo -e "          ||                 ||"
+    echo -e "          ||   Happy         ||"
+    echo -e "          ||   Birthday!     ||"
+    echo -e "          ||    🎂🎉🎉🎉🎉🎂    ||"
+    echo -e "          ======================"
+    sleep 1
+
+    clear
+    # Birthday Cake Drawing with Colors
+    echo -e "                 \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "            \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "         \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "      \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "   \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "  \e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[31m🎂\e[33m🎉\e[32m🎈\e[35m✨\e[0m"
+    echo -e "   \e[31m🌈🎂🎉🎈🎂🎉🎈🎂🎉🎈🎂🎉🌈\e[0m"
+    echo -e "     \e[33m-------------------------\e[0m"
+    echo -e "    \e[32m|   🍰🍰🍰🍰🍰🍰🍰🍰   |\e[0m"
+    echo -e "    \e[32m|   🍰🍰🍰🍰🍰🍰🍰🍰   |\e[0m"
+    echo -e "     \e[33m-------------------------\e[0m"
+    echo -e "    \e[31m|  🎂🎂🎂🎂🎂🎂🎂🎂  |\e[0m"
+    echo -e "    \e[31m|  🎂🎂🎂🎂🎂🎂🎂🎂  |\e[0m"
+    echo -e "    \e[33m-------------------------\e[0m"
+    echo -e "      \e[34m | 🎉  🎉  🎉  🎉 | \e[0m"
+    echo -e "      \e[34m | 🎉  🎉  🎉  🎉 | \e[0m"
+    echo -e "      \e[34m ------------------- \e[0m"
+    echo -e "       \e[35m | 🍭 🍭 🍭 🍭 | \e[0m"
+    echo -e "       \e[35m | 🍭 🍭 🍭 🍭 | \e[0m"
+    echo -e "        \e[36m ================= \e[0m"
+    echo -e "          \e[33m  🍬 🍬 🍬 🍬  \e[0m"
+    echo -e "          \e[33m  🍬 🍬 🍬 🍬  \e[0m"
+    sleep 1
+
+
+    # Firework 2 Burst (Repeated)
+    for i in {1..5}; do
+        clear
+        echo -e "            \e[3$((RANDOM%8))m*\e[0m           \e[3$((RANDOM%8))m*\e[0m           \e[3$((RANDOM%8))m*\e[0m           \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m      \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "    \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m         \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "    \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m      \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m      \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "       \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "   \e[3$((RANDOM%8))m*\e[0m      \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m     \e[3$((RANDOM%8))m*\e[0m     \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "       \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "            \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m            \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "                 \e[3$((RANDOM%8))m*\e[0m             \e[3$((RANDOM%8))m*\e[0m           "
+        echo -e "        \e[3$((RANDOM%8))m*\e[0m           \e[3$((RANDOM%8))m*\e[0m          \e[3$((RANDOM%8))m*\e[0m"
+        echo -e "            \e[3$((RANDOM%8))m*\e[0m         \e[3$((RANDOM%8))m*\e[0m        \e[3$((RANDOM%8))m*\e[0m           "
+        echo -e "           \e[3$((RANDOM%8))m*\e[0m      \e[3$((RANDOM%8))m*\e[0m       \e[3$((RANDOM%8))m*\e[0m          "
+        sleep 0.5
+    done
+    clear
+
     # New Firework Effect (Multiple Colors and Dynamic Movement)
     for i in {1..5}; do
         clear
