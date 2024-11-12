@@ -175,6 +175,47 @@ while true; do
     sleep 1
 
     clear
+    # Colorful and Fun Vertical Birthday Cake with Text and Icons
+    echo -e "                    \e[31m🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂\e[0m"
+    echo -e "                    \e[31m🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂\e[0m"
+    echo -e "                    \e[33m🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉\e[0m"
+    echo -e "                    \e[32m🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈\e[0m"
+    echo -e "                    \e[34m✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\e[0m"
+    echo -e "               \e[35m============================🎂🎂=============================\e[0m"
+    echo -e "               \e[33m|        🍰🍰🍰🍰🍰🍰🍰🍰       |\e[0m"
+    echo -e "               \e[33m|        🍰🍰🍰🍰🍰🍰🍰🍰       |\e[0m"
+    echo -e "               \e[33m============================🎂🎂=============================\e[0m"
+    echo -e "               \e[31m|   🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂   |\e[0m"
+    echo -e "               \e[31m|   🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂   |\e[0m"
+    echo -e "               \e[31m|   🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂   |\e[0m"
+    echo -e "               \e[31m============================🎂🎂=============================\e[0m"
+    echo -e "               \e[36m| 🎉  🎉  🎉  🎉  🎉  | \e[0m"
+    echo -e "               \e[36m| 🎉  🎉  🎉  🎉  🎉  | \e[0m"
+    echo -e "               \e[36m========================🎂🎂========================\e[0m"
+    echo -e "               \e[32m| 🍭 🍭 🍭 🍭 🍭 🍭 | \e[0m"
+    echo -e "               \e[32m| 🍭 🍭 🍭 🍭 🍭 🍭 | \e[0m"
+    echo -e "               \e[32m========================🍬🍬========================\e[0m"
+    echo -e "               \e[33m| 🍬 🍬 🍬 🍬 🍬 🍬 | \e[0m"
+    echo -e "               \e[33m| 🍬 🍬 🍬 🍬 🍬 🍬 | \e[0m"
+    echo -e "               \e[33m========================🎉🎉========================\e[0m"
+
+    # Additional Party Decorations Below the Cake
+
+    echo -e "\n🎈🎉🎂🎈🎉🎂🎉🎂🎈🎉🎂🎈🎉🎂🎉🎈🎉\e[0m"
+    echo -e "             \e[32mHappy Birthday to You! 🎉🎈🎉\e[0m"
+    echo -e "       \e[33m🎂🎂🎂🎂 🎉 Let's Celebrate 🎉 🎂🎂🎂🎂\e[0m"
+    echo -e "         \e[34mMay your day be as sweet as cake 🍰🎉\e[0m"
+    echo -e "     \e[31m🍭🍬 Sweet Treats & Good Vibes Only 🍬🍭\e[0m"
+    echo -e "           \e[35m🎉 Party Time! 🎈✨ Let's Party! 🎉🎉\e[0m"
+
+    # Fireworks Celebration Below Cake
+    echo -e "        \e[33m🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆\e[0m"
+    echo -e "       \e[31m🎆🎆🎇🎆🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆🎆🎇🎆🎆🎇🎆\e[0m"
+    echo -e "       \e[32m🎇🎆🎇🎇🎆🎇🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇\e[0m"
+    echo -e "        \e[33m🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇\e[0m"
+    echo -e "         \e[34m🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇\e[0m"
+
+    sleep 1
 
 
     # Firework 2 Burst (Repeated)
@@ -210,6 +251,54 @@ while true; do
     echo -e "\e[1;34mEnjoy your special day! 🌟\e[0m"
     sleep 1
     clear
+
+    # Firework launch animation with smooth transition
+    for i in {1..5}; do
+        echo -e "\e[31m*\e[0m"
+        sleep 0.2
+        echo -e "\e[31m   *\e[0m"
+        sleep 0.2
+        echo -e "\e[31m      *\e[0m"
+        sleep 0.2
+        echo -e "\e[31m         *\e[0m"
+        sleep 0.2
+        echo -e "\e[31m            *\e[0m"
+        sleep 0.2
+        clear
+    done
+
+    # Explosion effect (Firework Burst)
+    for i in {1..3}; do
+        echo -e "\e[31m     *    *    *\e[0m"
+        echo -e "\e[33m    *    *    *    *\e[0m"
+        echo -e "\e[32m *    *    *    *    *\e[0m"
+        echo -e "\e[34m  *    *    *    *    *\e[0m"
+        echo -e "\e[35m     *    *    *    *\e[0m"
+        sleep 0.5
+        clear
+    done
+
+    # After Firework, display the birthday wishes
+    echo -e "\e[34m👩‍🦰: Happy Birthday to You! 🎉🎂\e[0m"
+    sleep 1
+    echo -e "\e[34m👨‍🦱: Wishing you a fantastic day! 🎁🎉\e[0m"
+    sleep 1
+    echo -e "\e[34m👩‍🦳: May all your dreams come true! ✨🎂\e[0m"
+    sleep 1
+    echo -e "\e[34m👦: Have a wonderful year ahead! 🎈🎉\e[0m"
+    sleep 1
+    echo -e "\e[34m👧: Here's to another amazing year! 🎂🎉\e[0m"
+    sleep 1
+    echo -e "\e[34m👩‍🦳: Sending you all the love! 🎁🎉\e[0m"
+    sleep 1
+    echo -e "\e[34m👨‍🦱: Cheers to you on your special day! 🥂🎂\e[0m"
+    sleep 1
+    echo -e "\e[34m👩‍🦰: Enjoy every moment! 🎈🎉\e[0m"
+    sleep 1
+
+    # Final celebratory message with fireworks and cake
+    echo -e "\e[32m✨✨✨🎉🎂✨✨✨\e[0m"
+    echo -e "\e[33m🎂🎉🎂🎉🎂🎉🎂\e[0m"
 
 
     # Firework 3 Fade
