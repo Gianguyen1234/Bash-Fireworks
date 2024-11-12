@@ -205,6 +205,7 @@ while true; do
     echo -e "         \e[34mMay your day be as sweet as cake 🍰🎉\e[0m"
     echo -e "     \e[31m🍭🍬 Sweet Treats & Good Vibes Only 🍬🍭\e[0m"
     echo -e "           \e[35m🎉 Party Time! 🎈✨ Let's Party! 🎉🎉\e[0m"
+    sleep 0.5
 
     # Fireworks Celebration Below Cake
     echo -e "        \e[33m🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆\e[0m"
@@ -212,8 +213,7 @@ while true; do
     echo -e "       \e[32m🎇🎆🎇🎇🎆🎇🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇\e[0m"
     echo -e "        \e[33m🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇🎆🎇🎆🎇🎆🎇🎆🎇🎇\e[0m"
     echo -e "         \e[34m🎇🎆🎇🎆🎇🎆🎇🎆🎇🎆🎆🎇🎆🎇🎆🎇🎆🎇🎆🎇\e[0m"
-
-    sleep 1
+    sleep 0.5
 
 
     # Firework 2 Burst (Repeated)
