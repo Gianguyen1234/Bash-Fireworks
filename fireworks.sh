@@ -122,16 +122,37 @@ while true; do
 done
 
 
-    echo -e "\e[33m    ,    ,    ,"
+    # Enhanced Birthday Message with Decorations
+    clear
+    echo -e "\e[1;33m    ,    ,    ,"
     echo -e "   :*: :*: :*: "
     echo -e "   '*\e[37m*\e[33m*\e[37m*\e[33m*\e[37m*\e[33m*\e[37m*\e[33m*\e[37m*   "
     echo -e "   |           |"
-    echo -e "   | Happy 🎉  |"
-    echo -e "   | Birthday! |"
+    echo -e "   | \e[1;35mHappy 🎉\e[0m  |"
+    echo -e "   | \e[1;36mBirthday! 🎂\e[0m |"
     echo -e "   '-----------'"
+
     sleep 0.7
-    echo "🎉🎂 Happy Birthday, ThaoNguyen! 🎂🎉"
-    echo "Hope you have an amazing day filled with joy and surprises!"
+
+    # Add more visual effects with colors
+    echo -e "\n\e[1;32m✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\e[0m"
+    echo -e "\e[1;33m🎉🎂 \e[1;32mHappy Birthday, ThaoNguyen! 🎂🎉\e[0m"
+    echo -e "\e[1;34mHope you have an amazing day filled with joy, fun, and surprises! 🎈🎉\e[0m"
+    echo -e "\e[1;35m🎊 Let’s make this day as special as you are! 🎊\e[0m"
+    echo -e "\n\e[1;32m✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\e[0m"
+
+    sleep 1
+
+    # Final fireworks effect
+    for i in {1..5}
+    do
+        echo -e "\e[31m    *    \e[33m*\e[0m    \e[32m*\e[34m*\e[0m    \e[35m*\e[0m    \e[36m*\e[0m"
+        sleep 0.5
+        clear
+    done
+
+    echo -e "\n\e[1;32m🎉🎂 Happy Birthday Again, ThaoNguyen! 🎂🎉\e[0m"
+    echo -e "\e[1;34mEnjoy your special day! 🌟\e[0m"
     sleep 1
     clear
 
