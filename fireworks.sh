@@ -148,35 +148,36 @@ while true; do
 
     # ASCII Birthday Cake
     clear
-    echo -e "         iiii iiii iiii iiii iiii         "
-    echo -e "      iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii   "
-    echo -e "   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e "  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e " iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e " iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e "  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e "   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
-    echo -e "      iiii iiiiiiiiiiiiiiiiiii iiiiii"
-    echo -e "       iii iiiiiiiiiiiiiiiiiii iii"
-    echo -e "        iiii iiiiiiiiiiiii iiiiiiii"
-    echo -e "            iiiiiiiiiiiii iiiiiiii"
-    echo -e "             iiiiiiiiiii iiiii"
-    echo -e "             iiiiiiiiiiiiiiiiii"
-    echo -e "               iiiii iiiiiiii"
-    echo -e "                iii iiiiii"
-    echo -e "                  iiiii"
-    echo -e "                 iiiii"
-    echo -e "          ======================"
-    echo -e "          ||                 ||"
-    echo -e "          ||   Happy         ||"
-    echo -e "          ||   Birthday!     ||"
-    echo -e "          ||    🎂🎉🎉🎉🎉🎂    ||"
-    echo -e "          ======================"
+    echo -e "\e[1;33m         iiii iiii iiii iiii iiii         "
+    echo -e "\e[1;33m      iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii   "
+    echo -e "\e[1;33m   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;33m  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;33m iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;33m iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;33m  iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;33m   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;34m      iiii iiiiiiiiiiiiiiiiiii iiiiii"
+    echo -e "\e[1;34m       iii iiiiiiiiiiiiiiiiiii iii"
+    echo -e "\e[1;34m        iiii iiiiiiiiiiiii iiiiiiii"
+    echo -e "\e[1;34m            iiiiiiiiiiiii iiiiiiii"
+    echo -e "\e[1;34m             iiiiiiiiiii iiiii"
+    echo -e "\e[1;34m             iiiiiiiiiiiiiiiiii"
+    echo -e "\e[1;34m               iiiii iiiiiiii"
+    echo -e "\e[1;34m                iii iiiiii"
+    echo -e "\e[1;32m                  iiiii"
+    echo -e "\e[1;32m                 iiiii"
+    echo -e "\e[1;31m          ======================"
+    echo -e "\e[1;31m          ||                 ||"
+    echo -e "\e[1;31m          ||   Happy         ||"
+    echo -e "\e[1;31m          ||   Birthday!     ||"
+    echo -e "\e[1;32m          ||    🎂🎉🎉🎉🎉🎂    ||"
+    echo -e "\e[1;31m          ======================"
     sleep 1
+
 
     clear
     # Colorful and Fun Vertical Birthday Cake with Text and Icons
-    echo -e "\e[1;33m          i i i i i i i i i i i          "
+    echo -e "\e[1;33m          i i i i i i i i i i i i i i i         "
     echo -e "\e[1;33m        |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|        "
     echo -e "\e[1;33m        |          BIRTHDAY CAKE         |        "
     echo -e "\e[1;33m        |          ~~~~~~~~~~~~          |        "
@@ -194,7 +195,7 @@ while true; do
     echo -e "\e[1;34m        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "
     echo -e "\e[1;36m         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         "
     echo -e "\e[1;36m          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~          "
-
+    sleep 1
 
     # Additional Party Decorations Below the Cake
 
