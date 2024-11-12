@@ -385,6 +385,42 @@ while true; do
 
     sleep 1
 
+    # Function to clear the screen
+    clear_screen() {
+    echo -e "\033c"
+    }
+
+    # Function to print text with colors
+    print_colored_text() {
+    echo -e "\033[1;32mT\033[1;33mH\033[1;34mA\033[1;35mN \033[1;36mY\033[1;37mO\033[1;31mU \033[1;32mF\033[1;33mO\033[1;34mR \033[1;35mW\033[1;36mA\033[1;37mT\033[1;31mC\033[1;32mH\033[1;33mI\033[1;34mN\033[1;35mG"
+    }
+
+    # Function for snake animation
+    snake() {
+    local snake_body="========="
+    local space="           "
+    local direction=1
+    local width=40
+    
+    for i in {1..10}; do
+        clear_screen
+        printf "%*s" $direction "$snake_body"
+        sleep 0.2
+        if [ $direction -ge $width ]; then
+        direction=1
+        else
+        direction=$((direction + 1))
+        fi
+    done
+    }
+
+    # Run the snake animation
+    snake
+
+    # Print the colorful text
+    print_colored_text
+    sleep 3
+
     # Firework 3 Fade
     echo -e "       \e[3$((RANDOM%8))m*\e[0m             \e[3$((RANDOM%8))m*\e[0m"
     sleep 0.2
