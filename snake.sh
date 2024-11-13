@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Function to clear the screen
 clear_screen() {
   echo -e "\033c"
